@@ -1,9 +1,7 @@
-import java.util.Iterator;
 import java.util.List;
-import java.util.function.Supplier;
 import java.util.stream.Stream;
 
-public class Task {
+public class Task5 {
     public static <T> Stream<T> zip(Stream<T> first, Stream<T> second) {
         // in other cases stream closes after count() method
         List<T> listA = first.toList();
